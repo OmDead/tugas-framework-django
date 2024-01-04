@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{judul}}</title>
+	<link rel="stylesheet" type="text/css" href="{% static "css/styles.css" %}">
+	<link rel="stylesheet" type="text/css" href="{% static app_css %}">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="/">home</a></li>
+			<li><a href="/blog">blog</a></li>
+			<li><a href="/about">about</a></li>
+			<li><a href="/sosmed">sosmed</a></li>
+		</ul>
+	</nav>
+	<img id="banner" src="{% static banner %}" alt="">
+	<h1>{{subjudul}}</h1>	
+	
+	<p>	Berdirinya forum ini tidak hanya sebagai wadah untuk mempererat tali silaturahmi di antara penghuni kos Ade Alip, tetapi juga sebagai tempat di mana kita dapat saling berbagi cerita, pengalaman, dan inspirasi. Mari kita bangun komunitas yang solid dan penuh semangat, menjadikan kos Ade Alip sebagai rumah yang hangat dan penuh kebersamaan. Sambutlah setiap percakapan dan pertemanan dengan keceriaan dan kehangatan di forum ini! </p>
+
+</body>
+</html>

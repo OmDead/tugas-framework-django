@@ -1,0 +1,5 @@
+python -m venv Myenv
+pip install Django==1.11.*
+django-admin startproject mywebsite
+py manage.py runserver
+python manage.py startapp blog
